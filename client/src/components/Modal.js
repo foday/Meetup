@@ -1,9 +1,11 @@
 function Modal(props) {
-    return (<div>
+    return (
+    <div>
         <p> You sure?</p>
         <button>cancel</button>
         <button>confirm</button>
-    </div>);
+    </div>
+    );
 }
 
 export default Modal;

@@ -1,6 +1,7 @@
 function Todo(props) {
     function deleteHandler() {
-        console.log("clicked");
+        console.log("clicked deletebutton ");
+        console.log(props.text);
     }
     return (
         <div>
