@@ -1,9 +1,9 @@
 function Modal(props) {
     return (
-    <div>
+    <div className='modal'>
         <p> You sure?</p>
-        <button>cancel</button>
-        <button>confirm</button>
+        <button className='btn btn--alt'>cancel</button>
+        <button className='btn'>confirm</button>
     </div>
     );
 }
